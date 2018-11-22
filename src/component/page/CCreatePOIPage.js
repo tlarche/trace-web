@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import Cmap from './Cmap.js';
 
 class CCreatePOIPage extends Component {
   render() {
@@ -13,6 +14,7 @@ class CCreatePOIPage extends Component {
           <li><Link to="/POIInfo">Add : ajoute le POI et revient à la page POI Info</Link></li>
         </ol>
       </nav>
+      // <Cmap/>
   </div>
     );
   }
